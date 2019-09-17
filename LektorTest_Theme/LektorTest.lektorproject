@@ -1,0 +1,10 @@
+[project]
+name = LektorTest_Theme
+themes = lektor-theme-nix
+[theme_settings]
+githubID = HanInfinity
+name = 塔塔默
+headerusername = Tatamo
+headerhostname = Tatamo_host
+about = Tatamo
+comments = no
