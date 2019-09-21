@@ -1,3 +1,7 @@
+_model: none
+---
+_template: index.html
+---
 title: Welcome to LektorTest!
 ---
 body:
