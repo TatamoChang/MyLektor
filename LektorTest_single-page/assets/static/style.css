@@ -1,0 +1,56 @@
+html{
+    margin: 5px;
+}
+body {
+    font-family: 'Verdana', sans-serif;
+}
+
+a {
+    color: #2a99b6;
+}
+
+a:hover {
+    color: #33bbdf;
+}
+
+header, footer, div.page {
+    background: #daeef3;
+}
+
+header h1 {
+    color: #169bbd;
+    margin: 0px;
+    padding: 0px 5px 0px 5px;
+    font-weight: normal;
+    font-size: 42px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 8px 0 0;
+    padding: 0;
+}
+
+div.page {
+    background: #f1fbfe;
+}
+
+.section {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    /* width: 40%; */
+    border-radius: 5px;
+    margin-top: 5px
+}
+
+.section h1, p{
+    padding: 5px 10px 5px 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}

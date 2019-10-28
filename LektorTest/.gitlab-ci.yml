@@ -1,0 +1,11 @@
+image: python:latest
+
+pages:
+  script:
+    - pip install lektor
+    - lektor build --output-path public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master

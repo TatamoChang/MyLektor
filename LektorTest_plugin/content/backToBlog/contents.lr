@@ -1,0 +1,5 @@
+_model: redirect
+---
+target: /blog
+---
+_discoverable: no

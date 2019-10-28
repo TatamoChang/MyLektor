@@ -1,2 +1,14 @@
 [project]
 name = LektorTest
+
+[servers.production]
+name = Production
+target = ftp://tatamo:1234@140.127.202.232:25/
+
+[servers.ssh]
+name = Ubuntu_ssh
+target = rsync://root@140.127.202.240/var/www/html/lektor
+
+[servers.ghpages]
+name = Github Pages
+target = ghpages+https://HanInfinity/Lektor-Github-Pages-Deploy
