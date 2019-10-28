@@ -7,3 +7,4 @@ build
 *.pyo
 *.egg-info
 node_modules
+.vscode
